@@ -1,8 +1,12 @@
 //Objective is to see whether two words are one edit apart, an edit being
 //an insertion, deletion, or replacement. An edit must occur.
 
+let s = 'ab'
+let t = 'abc'
 
-//
+
+//O(n) solution that passes through the shorter string and checks character
+//to character
 
 //Make sure first argument is always shorter
 if (s.length > t.length) {
